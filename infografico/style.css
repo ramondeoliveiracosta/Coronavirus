@@ -1,50 +1,71 @@
 body {
-    width: auto;
-    height: 16000px;
-    margin:auto;
     Color: #662D91;
-    font-size: 20px;
+    font-size: 62.5%;
     font-family: sans-serif;
-    padding: 50px 0 0 0;
     line-height: ;
 }
 
-h1 img {
+.container {
+   max-width: 1128px;
+   margin: 0 auto;
+}
+
+.clearfix:before,
+.clearfix:after {
+   content: " ";
+   display: table;
+}
+
+.clearfix:after {
+   clear: both;
+}
+
+.clearfix {
+   *zoom: 1;
+}
+
+img,
+picture{
+   max-width: 100%;
+}
+header{
+    border: solid red 3px;
+
+}
+
+header h1 img {
     display: block;
     margin: 0 auto 0;
-    width: 367.5px;
+    width: 33%;
     height: auto;
+
+}
+
+#tema{
+    border: solid red 3px;
 }
 
 h2 {
+    width: auto;
     text-align: center;
-    font-size: 33px;
+    font-size: 175%;
     font-weight: 1000;
-    font-family: sans-serif;
-    margin: 100px 0 0 30px;
+    margin: auto;
+  
 }
 
-#titulo {
-    color: white;
-    font-family: sans-serif;
-    font-size: 58px;
-    font-weight: 1000;
-    margin: 0px;
-}
-#fundoTitulo{
-    width: 558.5px;
-    height: 100px;
-    background-color: #662D91;
-    position: relative;
-    margin: auto;
-    box-sizing: border-box;
-    border: 2px solid white;
-    border-radius: 50px;
+#coronavirus{
+    display: block;
+    margin: 0 auto 0;
+    width: 50%;
+    height: auto;
+    
 }
 
 #atualizacao {
     text-align: center;
-    margin: 50px auto 0;
+    margin: 0.6% auto 0;
+    
 }
 
 h3{
@@ -118,4 +139,24 @@ h3.subtituloEsquerda{
     padding: 0 0 0 2px;
     background-color: #ffe2b0;
     line-height: 1.2;
+}
+
+.strongAmareloNeon{
+    padding: 0 0 0 2px;
+    background-color: #fff799;
+    line-height: 1.2;
+}
+
+#teste1{
+    border: solid red;
+}
+
+#teste2{
+    border: solid red;
+}
+
+.fundoVerde{
+    display: block;
+    margin: 400px auto 0;
+
 }
