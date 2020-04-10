@@ -5,11 +5,12 @@ body {
     Color: #662D91;
     font-size: 20px;
     font-family: sans-serif;
+    padding: 50px 0 0 0;
 }
 
 h1 img {
     display: block;
-    margin: 50px auto 0;
+    margin: 0 auto 0;
     width: 367.5px;
     height: auto;
 }
@@ -17,19 +18,17 @@ h1 img {
 h2 {
     text-align: center;
     font-size: 33px;
-    font-weight: 900;
+    font-weight: 1000;
     font-family: sans-serif;
     margin: 100px 0 0 30px;
 }
 
 #titulo {
-    display: block;
-    box-sizing: border-box;
     color: white;
     font-family: sans-serif;
     font-size: 58px;
-    font-weight: 900;
-    margin: 1px;
+    font-weight: 1000;
+    margin: 0px;
 }
 #fundoTitulo{
     width: 558.5px;
@@ -48,19 +47,32 @@ h2 {
 }
 
 h3{
-    margin: 0 75px;
-    font-weight: 900;
-    font-size: 40px;
+    margin: 0px;
+    font-weight: 1000;
+    font-size: 50px;
 }
+
 h3.subtitulosDireita{
     text-align: right;
+    position: relative;
+    padding: 0 70px 0;
+    border-right: solid #662D91 10px;
 }
 
 h3.subtituloEsquerda{
     text-align: left;
 }
 
-h3.subtitulosDireita#primeiroSubtitulo{
-    margin: 100px 75px 0;
+#imagemInterrogacao{
+    position: absolute;
+    margin: 25px 0 0 40px;
+    width: 300px;
+    height: absolute;
 }
 
+.paragrafoDireita{
+    margin: 25px 75px 0 0;
+    padding: 0 0 0 410px;
+    text-align: right;
+    position: absolute;
+}
