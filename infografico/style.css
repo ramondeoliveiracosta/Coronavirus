@@ -1,4 +1,7 @@
 body {
+    width: auto;
+    height: 32000px;
+    margin:auto;
     Color: #662D91;
     font-size: 20px;
     font-family: sans-serif;
@@ -6,37 +9,58 @@ body {
 
 h1 img {
     display: block;
-    margin: 30px auto 0;
-    width: 400px;
+    margin: 50px auto 0;
+    width: 367.5px;
     height: auto;
 }
 
 h2 {
     text-align: center;
     font-size: 33px;
-    font-weight: bold;
+    font-weight: 900;
     font-family: sans-serif;
-    margin: 10px;
+    margin: 100px 0 0 30px;
 }
 
 #titulo {
-    text-align: center;
-    width: 400px;
-    w height: 75px;
-    background-color: #662D91;
     display: block;
+    box-sizing: border-box;
+    color: white;
+    font-family: sans-serif;
+    font-size: 58px;
+    font-weight: 900;
+    margin: 1px;
+}
+#fundoTitulo{
+    width: 558.5px;
+    height: 100px;
+    background-color: #662D91;
+    position: relative;
     margin: auto;
     box-sizing: border-box;
     border: 2px solid white;
     border-radius: 50px;
-    text-align: center;
-    color: white;
-    font-family: sans-serif;
-    font-size: 58px;
-    font-weight: bold;
 }
 
 #atualizacao {
     text-align: center;
     margin: 50px auto 0;
 }
+
+h3{
+    margin: 0 75px;
+    font-weight: 900;
+    font-size: 40px;
+}
+h3.subtitulosDireita{
+    text-align: right;
+}
+
+h3.subtituloEsquerda{
+    text-align: left;
+}
+
+h3.subtitulosDireita#primeiroSubtitulo{
+    margin: 100px 75px 0;
+}
+
