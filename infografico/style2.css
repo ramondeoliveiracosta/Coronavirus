@@ -1,22 +1,76 @@
+/* Estilo dos sublinhados*/
+.strongAzulAgua {
+    padding: 0 0 0 2px;
+    background-color: #b6ffe5;
+    line-height: 1.2;
+    font-weight: 700;
+    
+}
+
+.strongAzul {
+    padding: 0 0 0 2px;
+    background-color: #d2f4ff;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.strongVerde {
+    padding: 0 0 0 2px;
+    background-color: #cafeb0;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.strongRocho {
+    padding: 0 0 0 2px;
+    background-color: #fed7ff;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.strongAmarelo {
+    padding: 0 0 0 2px;
+    background-color: #fff4d7;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.strongAzulEscuro {
+    padding: 0 0 0 2px;
+    background-color: #d7e0ff;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.strongAmareloEscuro {
+    padding: 0 0 0 2px;
+    background-color: #ffe2b0;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.strongAmareloNeon {
+    padding: 0 0 0 2px;
+    background-color: #fff799;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+
+
 body {
     Color: #662D91;
     font-family: sans-serif;
     font-size: 62.5%;
+    border: solid Red 1px;
 }
 
-header {
-    border: solid green 3px;
-}
 
 .logo {
     display: block;
     margin: 0 auto 0;
     width: 33%;
     height: auto;
-}
-
-#tema {
-    border: solid green 3px;
 }
 
 h2 {
@@ -41,48 +95,11 @@ h2 {
 }
 
 #oQueSaoCoronavirus .ulSubtitulos{
-    border: solid red 1px;
     text-align: right;
     border-right: solid #662D91 10px;
     margin: 10% 0 0;
     padding: 0 4%;
 }
-
-#oQueSaoCoronavirus .ulImagemParagrafo{
-    display: inline-block;
-    vertical-align: top;
-    width: 100%;
-    height: 400px;
-    padding: ;
-    border: solid red 1px;
-}
-
-#oQueSaoCoronavirus .ulImagemParagrafo .uiImagem{
-    width: 33.33%;
-    height: auto;
-    border: solid red 10px;
-}
-
-#oQueSaoCoronavirus .ulImagemParagrafo .uiParagrafo{
-    width: 66.66%;
-    border: solid red 1px;
-}
-
-.imagemInterrogacao {
-    position: relative;
-    margin: auto;
-    width: 100%;
-
-}
-
-.paragrafoDireita {
-    position: relative;
-    width: 100%;
-    height: auto;
-    margin: auto;
-    text-align: right;
-}
-
 
 h3 {
     margin: 0px;
@@ -98,56 +115,56 @@ h3.subtitulosDireita {
     border-right: solid #662D91 10px;
 }
 
+#oQueSaoCoronavirus{
+    width: 100%;
+    height: auto;
+    
+}
+
+#oQueSaoCoronavirus .ulImagemParagrafo{
+    display: inline-block;
+    width: 94%;
+    height: auto;
+    
+}
+
+#oQueSaoCoronavirus .ulImagemParagrafo .uiImagem{
+    width: 33.33%;
+    height: auto;
+    border: solid white 10px;
+    box-sizing: border-box;
+    
+}
+
+.imagemInterrogacao {
+    float: left;
+    position: relative;
+    width: 100%;
+
+}
+
+#oQueSaoCoronavirus .ulImagemParagrafo .uiParagrafo{
+    float: right;
+    vertical-align: top;
+    width: 66.66%;
+    position: relative;
+    height: 400px;
+    
+}
+
+
+
+.paragrafoDireita {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    text-align: right;
+    font-size: 300%;
+}
+
+
 h3.subtituloEsquerda {
     text-align: left;
-}
-
-.strongAzulAgua {
-    padding: 0 0 0 2px;
-    background-color: #b6ffe5;
-    line-height: 1.2;
-}
-
-.strongAzul {
-    padding: 0 0 0 2px;
-    background-color: #d2f4ff;
-    line-height: 1.2;
-}
-
-.strongVerde {
-    padding: 0 0 0 2px;
-    background-color: #cafeb0;
-    line-height: 1.2;
-}
-
-.strongRocho {
-    padding: 0 0 0 2px;
-    background-color: #fed7ff;
-    line-height: 1.2;
-}
-
-.strongAmarelo {
-    padding: 0 0 0 2px;
-    background-color: #fff4d7;
-    line-height: 1.2;
-}
-
-.strongAzulEscuro {
-    padding: 0 0 0 2px;
-    background-color: #d7e0ff;
-    line-height: 1.2;
-}
-
-.strongAmareloEscuro {
-    padding: 0 0 0 2px;
-    background-color: #ffe2b0;
-    line-height: 1.2;
-}
-
-.strongAmareloNeon {
-    padding: 0 0 0 2px;
-    background-color: #fff799;
-    line-height: 1.2;
 }
 
 
