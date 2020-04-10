@@ -6,6 +6,7 @@ body {
     font-size: 20px;
     font-family: sans-serif;
     padding: 50px 0 0 0;
+    line-height: ;
 }
 
 h1 img {
@@ -75,4 +76,46 @@ h3.subtituloEsquerda{
     padding: 0 0 0 410px;
     text-align: right;
     position: absolute;
+}
+
+.strongAzulAgua{
+    padding: 0 0 0 2px;
+    background-color: #b6ffe5;
+    line-height: 1.2;
+}
+
+.strongAzul{
+    padding: 0 0 0 2px;
+    background-color: #d2f4ff;
+    line-height: 1.2;
+}
+
+.strongVerde{
+    padding: 0 0 0 2px;
+    background-color: #cafeb0;
+    line-height: 1.2;
+}
+
+.strongRocho{
+    padding: 0 0 0 2px;
+    background-color: #fed7ff;
+    line-height: 1.2;
+}
+
+.strongAmarelo{
+    padding: 0 0 0 2px;
+    background-color: #fff4d7;
+    line-height: 1.2;
+}
+
+.strongAzulEscuro{
+    padding: 0 0 0 2px;
+    background-color: #d7e0ff;
+    line-height: 1.2;
+}
+
+.strongAmareloEscuro{
+    padding: 0 0 0 2px;
+    background-color: #ffe2b0;
+    line-height: 1.2;
 }
