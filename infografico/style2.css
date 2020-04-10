@@ -5,32 +5,8 @@ body {
     line-height: ;
 }
 
-.container {
-   max-width: 1128px;
-   margin: 0 auto;
-}
-
-.clearfix:before,
-.clearfix:after {
-   content: " ";
-   display: table;
-}
-
-.clearfix:after {
-   clear: both;
-}
-
-.clearfix {
-   *zoom: 1;
-}
-
-img,
-picture{
-   max-width: 100%;
-}
-header{
+header {
     border: solid red 3px;
-
 }
 
 header h1 img {
@@ -38,10 +14,9 @@ header h1 img {
     margin: 0 auto 0;
     width: 33%;
     height: auto;
-
 }
 
-#tema{
+#tema {
     border: solid red 3px;
 }
 
@@ -51,112 +26,108 @@ h2 {
     font-size: 175%;
     font-weight: 1000;
     margin: auto;
-  
 }
 
-#coronavirus{
+#coronavirus {
     display: block;
     margin: 0 auto 0;
     width: 50%;
     height: auto;
-    
 }
 
 #atualizacao {
     text-align: center;
     margin: 0.6% auto 0;
-    
 }
 
-h3{
+h3 {
     margin: 0px;
     font-weight: 1000;
     font-size: 50px;
 }
 
-h3.subtitulosDireita{
+h3.subtitulosDireita {
     text-align: right;
     position: relative;
     padding: 0 70px 0;
     border-right: solid #662D91 10px;
 }
 
-h3.subtituloEsquerda{
+h3.subtituloEsquerda {
     text-align: left;
 }
 
-#imagemInterrogacao{
+#imagemInterrogacao {
     position: absolute;
     margin: 25px 0 0 40px;
     width: 300px;
     height: absolute;
 }
 
-.paragrafoDireita{
+.paragrafoDireita {
     margin: 25px 75px 0 0;
     padding: 0 0 0 410px;
     text-align: right;
     position: absolute;
 }
 
-.strongAzulAgua{
+.strongAzulAgua {
     padding: 0 0 0 2px;
     background-color: #b6ffe5;
     line-height: 1.2;
 }
 
-.strongAzul{
+.strongAzul {
     padding: 0 0 0 2px;
     background-color: #d2f4ff;
     line-height: 1.2;
 }
 
-.strongVerde{
+.strongVerde {
     padding: 0 0 0 2px;
     background-color: #cafeb0;
     line-height: 1.2;
 }
 
-.strongRocho{
+.strongRocho {
     padding: 0 0 0 2px;
     background-color: #fed7ff;
     line-height: 1.2;
 }
 
-.strongAmarelo{
+.strongAmarelo {
     padding: 0 0 0 2px;
     background-color: #fff4d7;
     line-height: 1.2;
 }
 
-.strongAzulEscuro{
+.strongAzulEscuro {
     padding: 0 0 0 2px;
     background-color: #d7e0ff;
     line-height: 1.2;
 }
 
-.strongAmareloEscuro{
+.strongAmareloEscuro {
     padding: 0 0 0 2px;
     background-color: #ffe2b0;
     line-height: 1.2;
 }
 
-.strongAmareloNeon{
+.strongAmareloNeon {
     padding: 0 0 0 2px;
     background-color: #fff799;
     line-height: 1.2;
 }
 
-#teste1{
+#teste1 {
     border: solid red;
 }
 
-#teste2{
+#teste2 {
     border: solid red;
 }
 
-.fundoVerde{
+.fundoVerde {
     display: block;
     margin: 400px auto 0;
-
 }

@@ -1,0 +1,23 @@
+.container {
+    max-width: 1128px;
+    margin: 0 auto;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+img,
+picture {
+    max-width: 100%;
+}
