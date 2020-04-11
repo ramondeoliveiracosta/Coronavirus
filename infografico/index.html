@@ -22,11 +22,11 @@
             <p class="atualizacao">Atualizado em 19/03/2020.</p>
         </header>
 
-        <div class="caixas" class="oQueSaoCoronavirus">
+        <div class="caixas" id="oQueSaoCoronavirus">
             
             <ul class="ulSubtitulosDireita">
                 <li class="liSubtitulosDireita">
-                    <h3 class="subtitulo">O que são coronavírus?</h3>
+                    <h3>O que são coronavírus?</h3>
                 </li>
             </ul>
             
@@ -34,7 +34,7 @@
                 <li class="liImagem">
                     <img class="imagemInterrogacao" src="C:\Users\Ramon'\Documents\MeusProjetos\Coronavirus\infografico\img\Interrogação.svg">
                 </li>
-                <li class="liParagrafoRight">
+                <li class="paragrafoInterrogacao">
                     <P class="paragrafoDireita">Os Coronavírus são uma grande família de vírus, já em circulação no Brasil, <strong class="strongAzulAgua">causadores de resfriados comuns, além de outras doenças mais graves como a Síndrome Aguda Respiratória Severa (SARS) e a Síndrome Respiratória do Oriente Médio (MERS)</strong>,
                 que causaram epidemias nos anos de 2004 e 2012, respectivamente. O novo Coronavírus foi denominado pela Organização Mundial da Saúde (OMS) como SARS-CoV2 e a doença, por ele causada, COVID-19.</P>
                 </li>
@@ -42,33 +42,50 @@
             
         </div>
 
-        <div class="caixas" clas="comoETrans">
+        <div class="caixas" id="comoETrans">
             
-            <ul>
-                <li><h3 class="ulSubtitulosEsquerda">Como é transmitida a doença?</h3></li>
+            <ul class="ulSubtitulosEsquerda">
+                <li>
+                    <h3>Como é transmitida a doença?</h3>
+                </li>
             </ul>
             
             <ul class="ulImagemParagrafo" >
-                <li class="paragrafoEsquerda">
-                    <p><strong class="strongAzul">O principal meio de transmissão é entre pessoas, ou seja, ao tossir ou espirrar, pessoas infectadas expelem gotículas que contém o vírus.</strong> Essas gotículas podem contaminar superfícies e objetos. Outras pessoas podem se infectar ao tocar nesses locais contaminados, levando suas mãos aos olhos, nariz ou boca.</p>
+                <li >
+                    <p class="paragrafoEsquerda"><strong class="strongAzul">O principal meio de transmissão é entre pessoas, ou seja, ao tossir ou espirrar, pessoas infectadas expelem gotículas que contém o vírus.</strong> Essas gotículas podem contaminar superfícies e objetos. Outras pessoas podem se infectar ao tocar nesses locais contaminados, levando suas mãos aos olhos, nariz ou boca.</p>
                 </li>
                 <li class="liImagem">
-                    <img  class="imagemConversa" src="C:\Users\Ramon'\Documents\MeusProjetos\Coronavirus\infografico\img\conversa.svg">
+                    <img class="imagemConversa" src="C:\Users\Ramon'\Documents\MeusProjetos\Coronavirus\infografico\img\conversa.svg">
                 </li>
             </ul>
-        <img class="fundoVerde" src="C:\Users\Ramon'\Documents\MeusProjetos\Coronavirus\infografico\img\fundoVerdeClaro.gi">
-             
         </div>
 
-        <div class="caixas" class="QuaisSaoOsSintomas" >
-            <img src="C:\Users\Ramon'\Documents\MeusProjetos\Coronavirus\infografico\img\fundoRosaClaro.sv">
-            <img src="C:\Users\Ramon'\Documents\MeusProjetos\Coronavirus\infografico\img\faltaDeAr.sv">
+        <div class="caixas" id="quaisSaoOsSintomas" >
             
-            <h3  class="ulSubtitulosDireita">Quais são os sintomas da COVID-19?</h3>
-            <P><strong class="strongAzulAgua">Os sintomas são principalmente respiratórios, como tosse, coriza, dor de garganta, além de febre, podendo, nos casos mais graves, apresentar falta de ar.</strong> Na maioria dos casos, os pacientes apresentam sintomas
-                leves ou moderados, mas há casos graves e até fatais. Os mais vulneráveis são pessoas idosas (acima de 60 anos) ou com doenças pré-existentes.</P>
-        </div>
-        
+            <ul class="ulSubtitulosDireita">
+                <li class="liSubtitulosDireita">
+                    <h3>Quais são os sintomas da COVID-19?</h3>
+                </li>
+            </ul>
+            
+            <ul class="ulImagemParagrafo" style="border: solid yellow">
+                <li class="liImagem" style="border: solid green">
+                    <img id="imagemSintomasAr" src="C:\Users\Ramon'\Documents\MeusProjetos\Coronavirus\infografico\img\faltaDeAr.svg" style="border: solid red">
+                </li>
+                
+                <li class="liImagem" style="border: solid red">
+                    <img id= "imagensSintomasFebre"  src="C:\Users\Ramon'\Documents\MeusProjetos\Coronavirus\infografico\img\febre.svg" style="border: solid red">
+                </li>
+                    
+                <li class="liImagem" style="border: solid red">
+                    <img id= "imagemSintomasTosse" src="C:\Users\Ramon'\Documents\MeusProjetos\Coronavirus\infografico\img\tosse.svg" style="border: solid red">
+                <li class="paragrafoDireita" style="border: solid Orange" style="border: solid red">
+                    
+                <P class="paragrafoSintomas"><strong class="strongAzulAgua">Os sintomas são principalmente respiratórios, como tosse, coriza, dor de garganta, além de febre, podendo, nos casos mais graves, apresentar falta de ar.</strong> Na maioria dos casos, os pacientes apresentam sintomas leves ou moderados, mas há casos graves e até fatais. Os mais vulneráveis são pessoas idosas (acima de 60 anos) ou com doenças pré-existentes.</P>
+                
+            </ul>   
+             
+        <!--
         <div class="caixas" class="oQuePossoFazer">
             <h3 class="ulSubtitulosEsquerdaVerde">O que posso fazer para me proteger da doença?</h3>
             <img src="C:\Users\Ramon'\Documents\MeusProjetos\Coronavirus\infografico\img\">
@@ -254,7 +271,7 @@
             <h3 class="ulSubtitulosEsquerda">Há algo para melhorar o sistema imunológico especificamente para combater a infecção pelo Coronavírus?</h3>
             <img src="C:\Users\Ramon'\Documents\MeusProjetos\Coronavirus\infografico\img">
             <p><strong class="strongAmareloNeon">Não,</strong> siga as recomendações para um vida saudável e evite transmissão com as orientações anteriormente citadas.</p>
-        </div>
+        </div>-->
         
     </div>
 </body>
