@@ -49,12 +49,6 @@ h3 {
 }
 
 
-
-#oQueSaoCoronavirus{
-    width: 100%;
-    height: auto;
-}
-
 .ulSubtitulosDireita{
     text-align: right;
     border-right: solid #662D91 10px;
@@ -62,6 +56,15 @@ h3 {
     padding: 0 4%;
 
 }
+
+.ulSubtitulosEsquerda {
+    text-align: left;
+    border-left: solid #662D91 10px;
+    margin: 10% 0 0;
+    padding: 0 4%;
+    
+}
+
 
 .ulImagemParagrafo{
     display: inline-block;
@@ -113,13 +116,7 @@ h3 {
     
 }
 
-.ulSubtitulosEsquerda {
-    text-align: left;
-    border-left: solid #662D91 10px;
-    margin: 10% 0 0;
-    padding: 0 4%;
-    
-}
+
 
 .paragrafoComoEtrans{
     width: 100%;
@@ -274,6 +271,7 @@ width: 100%;
     text-align: right;
     width: 80%;
     float: right;
+    margin: 0 0 5% 0;
 
 
 }
@@ -288,9 +286,21 @@ width: 100%;
 
 
 #quaPerto{
-    background-color:#b6ffe5 ;
+    background-color:#b6ffe5;
+    
 }
 
+#paragrafoQuaPerto{
+    width: 45%;
+    float: left;
+}
+
+.imagemQuaPerto{
+    width: 50%;
+    float: right;
+    margin: -10% 3% 0 0;
+
+}
 
 
 .strongRocho {
