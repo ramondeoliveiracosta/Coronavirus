@@ -4,6 +4,7 @@ body {
     Color: #662D91;
     font-family: sans-serif;
     font-size: 62.5%;
+    
 }
 
 h2 {
@@ -12,6 +13,7 @@ h2 {
     font-size: 350%;
     font-weight: 1000;
     margin: 10% auto 0;
+    
 }
 
 .logo {
@@ -19,6 +21,7 @@ h2 {
     margin: 2% auto 0;
     width: 33%;
     height: auto;
+    
 }
 
 .coronavirus {
@@ -26,12 +29,14 @@ h2 {
     margin: 0.5% auto 0;
     width: 50%;
     height: auto;
+    
 }
 
 .atualizacao {
     font-size: 250%;
     text-align: center;
     margin: 5% auto 0;
+    
 }
 
 .caixas {
@@ -39,18 +44,20 @@ h2 {
     height: auto;
     padding: 0 5%;
     margin: auto;
-    border: solid red;
-    padding: 0 0 5%;
+    padding: 0 0 10%;
+    
 }
 
 h3 {
     margin: 0px;
     font-weight: 1000;
     font-size: 50px;
+    
 }
 
 strong {
     font-weight: 700;
+    
 }
 
 .subtituloDireita {
@@ -59,6 +66,7 @@ strong {
     margin: 4% auto;
     padding: 0 4%;
     line-height: 100%;
+    
 }
 
 .subtituloEsquerda {
@@ -67,6 +75,7 @@ strong {
     margin: 4% auto;
     padding: 0 4%;
     line-height: 100%;
+    
 }
 
 .subtitulosDireitaVerde {
@@ -77,9 +86,11 @@ strong {
     text-align: right;
     margin-bottom: 5%;
     line-height: 100%;
+    
 }
 
 .subtitulosEsquerdaVerde {
+    width: 100%;
     text-align: left;
     border-left: solid #b5cfc3 10px;
     margin: 10% 0 0;
@@ -92,21 +103,21 @@ strong {
     width: 100%;
     height: auto;
     margin: auto;
-    border: solid royalblue;
+
 }
 
 .imagemEsquerda {
     width: 30%;
     height: auto;
     float: left;
-    border: solid red;
+ 
 }
 
 .imagemDireita {
     width: 30%;
     height: auto;
     float: right;
-    border: solid red;
+ 
 }
 
 .imagem {
@@ -114,42 +125,42 @@ strong {
     height: auto;
     position: relative;
     width: 100%;
-    border: rebeccapurple solid;
+   
 }
 
 .paragrafoDireita {
     float: right;
     position: relative;
     width: 65%;
-    margin: auto;
+    margin: 0 5% 0 0;
     text-align: right;
     font-size: 300%;
     height: auto;
-    border: teal solid;
     line-height: 130%;
+    
 }
 
 .paragrafoEsquerda {
     float: left;
     position: relative;
     width: 65%;
-    margin: auto;
+    margin: 0 0 0 5%;
     text-align: left;
     font-size: 300%;
     height: auto;
-    border: teal solid;
     line-height: 130%;
+    
 }
 
 .paragrafoCentro {
     position: relative;
-    width: 100%;
-    margin: auto;
+    height: auto;
+    margin: 0 5%;
     text-align: justify;
     font-size: 300%;
     height: auto;
-    border: teal solid;
     line-height: 130%;
+    
 }
 
 .textoDireita {
@@ -241,7 +252,7 @@ strong {
 .ulOquePossoFazer {
     width: 100%;
     height: auto;
-    margin: 5% 0 0 0;
+    margin: 10% 0 0% 0;
 }
 
 .liOquePossoFazer {
@@ -281,16 +292,15 @@ strong {
 }
 
 #imagemAmpulheta {
-    width: 10%;
-    height: auto;
-    position: absolute;
-    margin: -5% 10% 0;
+    float: left;
+    width: 20%;
 }
 
 #imagemNariz {
     width: 80%;
     height: auto;
-    margin: 0 0 0 90%;
+    margin: 0 0 0 50%;
+    
 }
 
 #paragrafoOqueETrans {
@@ -309,44 +319,53 @@ strong {
 #paragrafoQuaoPerto {
     float: left;
     position: relative;
-    margin: auto;
+    margin: 0 0 0 5%;
     text-align: left;
     font-size: 300%;
     height: auto;
-    border: teal solid;
     width: 45%;
 }
 
 #imagemQuaoPerto {
     width: 40%;
     float: right;
-    margin: -10% 10% 0 0;
-    border: teal solid;
+    margin: 0% 10% 0 0;
+ 
+}
+#imagemTuboEnsaio{
+    width: 100%;
+}
+
+#imagemVacina1{
+    width: 70%;
+    margin: -5% 0 0 70%;
 }
 
 #estouSemSintomas {
     width: 100%;
+    height: auto;
     background-color: #662D91;
+}
+
+#imagemHomem{
+    width: 100%;
+    margin: 10% 0 -2% 0;
+    
 }
 
 #paragrafoEstouSemSintomas {
     color: white;
 }
 
+
 #pessoasAssintomaticas {
     background-color: #ffe2b0;
     width: 100%;
     height: auto;
-    padding: 5%;
+    padding:  0 0 5%;
+    height: auto;
 }
 
-#pessoasAssintomaticas {
-    width: 100%;
-    text-align: left;
-    font-size: 300%;
-    height: auto;
-    border: teal solid;
-}
 
 #CasoEuTenha {
     width: 100%;
@@ -354,9 +373,15 @@ strong {
     padding: 0 0 5% 0;
 }
 
-.paragrafoCasoEuTenha {
+.liMascara{
     list-style: disc;
-    margin: 0 7%;
+    float: right;
+    margin: 0 0 0 3%;
+}
+
+.liCasoEuTenha {
+    list-style: disc;
+    margin: 0 0 0 3%;
 }
 
 #qualAOrientacao {
@@ -364,18 +389,38 @@ strong {
     padding: 0 0 5%;
 }
 
-#imagemEscudo {
+.liQuaisSaoOsCuidados {
+    float: right;
+    list-style: disc;
+    
+}
+
+
+#imagemlavarAsMaos{
+    float: left;
+    width: 20%;
+    height: auto;
+    margin: 0 5% 0 5%;
+
+}
+
+#imagemVacina2{
     float: left;
     width: 15%;
     height: auto;
-    margin: 0 5% 0 0;
+    margin: 0 5% 0 10%;
 }
+
+
+#imagemEscudo {
+    float: left;
+    width: 10%;
+    height: auto;
+    margin: 0 5%;
+}
+
 
 #paragrafoEscudo {
     margin: 0 0 0 -25%;
 }
 
-.liQuaisSaoOsCuidados {
-    list-style: disc;
-    margin: 0 7%;
-}
