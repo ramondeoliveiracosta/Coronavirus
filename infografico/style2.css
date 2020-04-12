@@ -54,6 +54,7 @@ h3 {
     border-right: solid #662D91 10px;
     margin: 4% auto;
     padding: 0 4%;
+    line-height: 150%;
 }
 
 .subtituloEsquerda {
@@ -61,13 +62,17 @@ h3 {
     border-left: solid #662D91 10px;
     margin: 4% auto;
     padding: 0 4%;
+    line-height: 150%;
 }
 
 .subtitulosDireitaVerde {
-    text-align: right;
+    color: #b5cfc3;
     border-right: solid #b5cfc3 10px;
     margin: 10% 0 0;
     padding: 0 4%;
+    text-align: right;
+    margin-bottom: 5%;
+    line-height: 150%;
 }
 
 .subtitulosEsquerdaVerde {
@@ -75,6 +80,7 @@ h3 {
     border-left: solid #b5cfc3 10px;
     margin: 10% 0 0;
     padding: 0 4%;
+    line-height: 150%;
 }
 
 .imagemParagrafo {
@@ -116,6 +122,7 @@ h3 {
     font-size: 300%;
     height: auto;
     border: teal solid;
+    line-height: 130%;
 }
 
 .paragrafoEsquerda {
@@ -127,6 +134,7 @@ h3 {
     font-size: 300%;
     height: auto;
     border: teal solid;
+    line-height: 130%;
 }
 
 .paragrafoCentro {
@@ -137,6 +145,7 @@ h3 {
     font-size: 300%;
     height: auto;
     border: teal solid;
+    line-height: 130%;
 }
 
 .textoDireita {
@@ -311,6 +320,30 @@ h3 {
     border: teal solid;
 }
 
+#estouSemSintomas {
+    width: 100%;
+    background-color: #662D91;
+}
+
+#paragrafoEstouSemSintomas {
+    color: white;
+}
+
+#pessoasAssintomaticas {
+    background-color: #ffe2b0;
+    width: 100%;
+    height: auto;
+    padding: 5%;
+}
+
+#pessoasAssintomaticas {
+    width: 100%;
+    text-align: left;
+    font-size: 300%;
+    height: auto;
+    border: teal solid;
+}
+
 #imagemEscudo {
     float: left;
     width: 15%;
@@ -320,4 +353,8 @@ h3 {
 
 #paragrafoEscudo {
     margin: 0 0 0 -25%;
+}
+
+.listaMascara {
+    list-style-type: disc;
 }
