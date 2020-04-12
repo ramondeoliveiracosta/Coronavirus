@@ -1,3 +1,5 @@
+/**Geral**/
+
 body {
     Color: #662D91;
     font-family: sans-serif;
@@ -39,6 +41,7 @@ h2 {
     padding: 0 5%;
     margin: auto;
     border: solid red;
+    padding: 0 0 10%;
 
 }
 
@@ -48,36 +51,56 @@ h3 {
     font-size: 50px;
 }
 
-
-.ulSubtitulosDireita{
+.subtituloDireita{
     text-align: right;
     border-right: solid #662D91 10px;
-    margin: 4% 0 0;
+    margin: 4% auto;
     padding: 0 4%;
 
 }
 
-.ulSubtitulosEsquerda {
+.subtituloEsquerda {
     text-align: left;
     border-left: solid #662D91 10px;
-    margin: 10% 0 0;
+    margin: 4% auto;
     padding: 0 4%;
     
 }
 
+.subtitulosDireitaVerde{
+    text-align: right;
+    border-right: solid #b5cfc3 10px;
+    margin: 10% 0 0;
+    padding: 0 4%;
+}
 
-.ulImagemParagrafo{
+.subtitulosEsquerdaVerde{
+    text-align: left;
+    border-left: solid #b5cfc3 10px;
+    margin: 10% 0 0;
+    padding: 0 4%;
+}
+
+.imagemParagrafo{
     display: inline-block;
     width: 100%;
     height: auto;
-    margin: 5% auto;
+    margin: auto;
     
 }
 
-.liImagemEsquerda{
+.imagemEsquerda{
     width: 30%;
     height: auto;
     float: left;
+    border: solid red;
+    
+}
+
+.imagemDireita{
+    width: 30%;
+    height: auto;
+    float: right;
     border: solid red;
     
 }
@@ -100,29 +123,6 @@ h3 {
     height: auto;
 }
 
-.strongAzulAgua {
-    padding: 0 0 0 2px;
-    background-color: #b6ffe5;
-    line-height: 1.2;
-    font-weight: 700;
-    
-}
-
-
-
-#comoETrans{
-    width: 100%;
-    height: auto;
-    
-}
-
-
-
-.paragrafoComoEtrans{
-    width: 100%;
-
-}
-
 .paragrafoEsquerda {
     float: left;
     position: relative;
@@ -133,6 +133,33 @@ h3 {
     height: auto;
 }
 
+.paragrafoCentro {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    font-size: 300%;
+    height: auto;
+}
+
+.textoDireita{
+    text-align: right;
+
+}
+
+.textoEsquerda{
+    text-align: left;
+}
+
+
+.strongAzulAgua {
+    padding: 0 0 0 2px;
+    background-color: #b6ffe5;
+    line-height: 1.2;
+    font-weight: 700;
+    
+}
+
 .strongAzul {
     padding: 0 0 0 2px;
     background-color: #d2f4ff;
@@ -140,54 +167,74 @@ h3 {
     font-weight: 700;
 }
 
-.liImagemDireita{
-    float: right;
-    width: 30%;
-    height: auto;    
+.strongRocho {
+    padding: 0 0 0 2px;
+    background-color: #fed7ff;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.strongAmarelo {
+    padding: 0 0 0 2px;
+    background-color: #fff4d7;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.strongAzulEscuro {
+    padding: 0 0 0 2px;
+    background-color: #d7e0ff;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.strongAmareloEscuro {
+    padding: 0 0 0 2px;
+    background-color: #ffe2b0;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.strongAmareloNeon {
+    padding: 0 0 0 2px;
+    background-color: #fff799;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.strongVerde {
+    padding: 0 0 0 2px;
+    background-color: #cafeb0;
+    line-height: 1.2;
+    font-weight: 700;
 }
 
 
 
-#quaisSaoOsSintomas{
-    width: 100%;
-    height: auto;
-}
+/**Específicos**/
 
 #imagemSintomasAr{
     width: 40%;
     height: auto;
-    position: 
     
-    
+      
 }
 
 #imagensSintomasFebre{
-    width: 12%;
+    width: 40%;
     height: auto;
     float: right;
-    position: absolute;
-    margin: 5% 0 0 4%; 
+    margin: 20% 0 0 4%; 
 
 }
 
 #imagemSintomasTosse{
     width: 40%;
     height: auto;
-    margin: 10% 0 0 20%;
+    float: left;
+    margin: 5% 0 0 20%;
 }
 
-.paragrafoSintomas{
-    width: 100%;
-    float: right;
-    position: relative; 
-    
-}
-
-
-
-.oQuePossoFazer{
-width: 100%;
-}
 
 .ulOquePossoFazer{
     width: 100%;
@@ -249,18 +296,6 @@ width: 100%;
 }
 
 
-
-.paragrafoCentro {
-    position: relative;
-    width: 100%;
-    margin: auto;
-    text-align: left;
-    font-size: 300%;
-    height: auto;
-}
-
-
-
 #imagemNariz{
     width: 60%;
     height: auto;
@@ -275,15 +310,6 @@ width: 100%;
 
 
 }
-
-.strongVerde {
-    padding: 0 0 0 2px;
-    background-color: #cafeb0;
-    line-height: 1.2;
-    font-weight: 700;
-}
-
-
 
 #quaPerto{
     background-color:#b6ffe5;
@@ -303,61 +329,24 @@ width: 100%;
 }
 
 
-.strongRocho {
-    padding: 0 0 0 2px;
-    background-color: #fed7ff;
-    line-height: 1.2;
-    font-weight: 700;
+
+
+
+
+#imagemParagrafoEscudo {
+    
 }
 
-.strongAmarelo {
-    padding: 0 0 0 2px;
-    background-color: #fff4d7;
-    line-height: 1.2;
-    font-weight: 700;
+#imagemEscudo{
+    float: left;
+    width: 15%;
+    height: auto;
+    margin: 0 5% 0 0;
+    
 }
 
-.strongAzulEscuro {
-    padding: 0 0 0 2px;
-    background-color: #d7e0ff;
-    line-height: 1.2;
-    font-weight: 700;
+#paragrafoEscudo{
+    margin: 0 0 0 -25%;
 }
-
-.strongAmareloEscuro {
-    padding: 0 0 0 2px;
-    background-color: #ffe2b0;
-    line-height: 1.2;
-    font-weight: 700;
-}
-
-.strongAmareloNeon {
-    padding: 0 0 0 2px;
-    background-color: #fff799;
-    line-height: 1.2;
-    font-weight: 700;
-}
-
-
-ulSubtitulosDireitaVerde{
-    text-align: right;
-    border-right: solid #b5cfc3 10px;
-    margin: 10% 0 0;
-    padding: 0 4%;
-}
-
-.ulSubtitulosEsquerdaVerde{
-    text-align: left;
-    border-left: solid #b5cfc3 10px;
-    margin: 10% 0 0;
-    padding: 0 4%;
-}
-
-
-
-
-
-
-
 
 
