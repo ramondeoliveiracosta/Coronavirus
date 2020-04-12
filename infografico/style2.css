@@ -15,7 +15,7 @@ h2 {
 
 .logo {
     display: block;
-    margin: 4% auto 0;
+    margin: 2% auto 0;
     width: 33%;
     height: auto;
 }
@@ -35,9 +35,10 @@ h2 {
 
 .caixas {
     width: 100%;
-    height: 500px;
+    height: auto;
     padding: 0 5%;
-    margin: 5% auto 0;
+    margin: auto;
+    border: solid red;
 
 }
 
@@ -46,6 +47,8 @@ h3 {
     font-weight: 1000;
     font-size: 50px;
 }
+
+
 
 #oQueSaoCoronavirus{
     width: 100%;
@@ -68,24 +71,26 @@ h3 {
     
 }
 
-.liImagem{
-    width: 33.33%;
+.liImagemEsquerda{
+    width: 30%;
     height: auto;
-    float: 
+    float: left;
+    border: solid red;
     
 }
 
-.imagemInterrogacao {
+.imagem{
     float: left;
+    height: auto;
     position: relative;
     width: 100%;
-
 
 }
 
 .paragrafoDireita {
+    float: right;
     position: relative;
-    width: 66,66%;
+    width: 65%;
     margin: auto;
     text-align: right;
     font-size: 300%;
@@ -99,6 +104,8 @@ h3 {
     font-weight: 700;
     
 }
+
+
 
 #comoETrans{
     width: 100%;
@@ -114,73 +121,19 @@ h3 {
     
 }
 
+.paragrafoComoEtrans{
+    width: 100%;
+
+}
+
 .paragrafoEsquerda {
-    display: inline-block;
     float: left;
     position: relative;
-    width: 60%;
-    width: 60%;
-    height: auto;
+    width: 65%;
+    margin: auto;
     text-align: left;
     font-size: 300%;
-}
-
-.imagemConversa{
-    float: right;
-    position: relative;
-    width: 100%;
     height: auto;
-    margin: -10% -100% ;
-
-}
-
-#quaisSaoOsSintomas{
-    width: 100%;
-    height: auto;
-    border: solid red;
-}
-
-#imagemSintomasAr{
-    width: 40%;
-    border: solid black 15px;
-    float: left;
-}
-
-#imagensSintomasFebre{
-    width: 40%;
-    border: solid black 15px;
-    padding: 0 15;
-    float: right;
-
-}
-
-#imagemSintomasTosse{
-    width: 40%;
-    border: solid black 15px;
-    float: left;
-
-}
-
-
-
-
-
-.paragrafoSintomas{
-    width: 66.66%;
-    float: right;
-    position: relative; 
-    
-}
-
-.legendaSintomas{
-    color: transparent;
-    width: %;
-    text-align: center;
-    font-weight: 1000;
-    text-transform: uppercase;
-    font-size: 200%;
-
-
 }
 
 .strongAzul {
@@ -190,6 +143,140 @@ h3 {
     font-weight: 700;
 }
 
+.liImagemDireita{
+    float: right;
+    width: 30%;
+    height: auto;    
+}
+
+
+
+#quaisSaoOsSintomas{
+    width: 100%;
+    height: auto;
+}
+
+#imagemSintomasAr{
+    width: 40%;
+    height: auto;
+    position: 
+    
+    
+}
+
+#imagensSintomasFebre{
+    width: 12%;
+    height: auto;
+    float: right;
+    position: absolute;
+    margin: 5% 0 0 4%; 
+
+}
+
+#imagemSintomasTosse{
+    width: 40%;
+    height: auto;
+    margin: 10% 0 0 20%;
+}
+
+.paragrafoSintomas{
+    width: 100%;
+    float: right;
+    position: relative; 
+    
+}
+
+
+
+.oQuePossoFazer{
+width: 100%;
+}
+
+.ulOquePossoFazer{
+    width: 100%;
+    height: auto;
+    margin: 5% 0 0 0;
+}
+
+.liOquePossoFazer{
+    display: inline-block;
+    vertical-align: top;
+    width: 32.5%;
+    height: auto;
+    text-align: center;
+    
+}
+
+.imagemOquePossoFazer{
+    width: 50%;
+    
+}
+
+.paragrafosOquePossoFazer{
+    width: 100%;
+    font-size: 300%;
+    text-align: center;
+    font-weight: 700;
+    margin: 5% 0;
+
+}
+
+.blocoLeft{
+    float: left;
+
+}
+
+.blocoMiddle{
+    float:none; 
+
+}
+
+.blocoRight{
+    float: right;
+
+}
+
+
+
+#seEuFicarProximo{
+    width: 100%;
+
+}
+
+#imagemAmpulheta{
+    width: 10%;
+    height: auto;
+    position: absolute;
+    margin: -5% 10% 0;
+    
+}
+
+
+
+.paragrafoCentro {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    font-size: 300%;
+    height: auto;
+}
+
+
+
+#imagemNariz{
+    width: 60%;
+    height: auto;
+    margin: 0 0 0 70% ;
+}
+
+#paragrafoOqueETrans{
+    text-align: right;
+    width: 80%;
+    float: right;
+
+
+}
 
 .strongVerde {
     padding: 0 0 0 2px;
@@ -197,6 +284,14 @@ h3 {
     line-height: 1.2;
     font-weight: 700;
 }
+
+
+
+#quaPerto{
+    background-color:#b6ffe5 ;
+}
+
+
 
 .strongRocho {
     padding: 0 0 0 2px;
@@ -234,14 +329,6 @@ h3 {
 }
 
 
-
-
-
-
-
-
-
-
 ulSubtitulosDireitaVerde{
     text-align: right;
     border-right: solid #b5cfc3 10px;
@@ -255,4 +342,12 @@ ulSubtitulosDireitaVerde{
     margin: 10% 0 0;
     padding: 0 4%;
 }
+
+
+
+
+
+
+
+
 
