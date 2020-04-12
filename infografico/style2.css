@@ -49,12 +49,16 @@ h3 {
     font-size: 50px;
 }
 
+strong {
+    font-weight: 700;
+}
+
 .subtituloDireita {
     text-align: right;
     border-right: solid #662D91 10px;
     margin: 4% auto;
     padding: 0 4%;
-    line-height: 150%;
+    line-height: 100%;
 }
 
 .subtituloEsquerda {
@@ -62,7 +66,7 @@ h3 {
     border-left: solid #662D91 10px;
     margin: 4% auto;
     padding: 0 4%;
-    line-height: 150%;
+    line-height: 100%;
 }
 
 .subtitulosDireitaVerde {
@@ -72,7 +76,7 @@ h3 {
     padding: 0 4%;
     text-align: right;
     margin-bottom: 5%;
-    line-height: 150%;
+    line-height: 100%;
 }
 
 .subtitulosEsquerdaVerde {
@@ -80,7 +84,7 @@ h3 {
     border-left: solid #b5cfc3 10px;
     margin: 10% 0 0;
     padding: 0 4%;
-    line-height: 150%;
+    line-height: 100%;
 }
 
 .imagemParagrafo {
@@ -284,9 +288,9 @@ h3 {
 }
 
 #imagemNariz {
-    width: 60%;
+    width: 80%;
     height: auto;
-    margin: 0 0 0 70%;
+    margin: 0 0 0 90%;
 }
 
 #paragrafoOqueETrans {
@@ -344,6 +348,22 @@ h3 {
     border: teal solid;
 }
 
+#CasoEuTenha {
+    width: 100%;
+    background-color: #fae3ff;
+    padding: 0 0 5% 0;
+}
+
+.paragrafoCasoEuTenha {
+    list-style: disc;
+    margin: 0 7%;
+}
+
+#qualAOrientacao {
+    background-color: #d9ffee;
+    padding: 0 0 5%;
+}
+
 #imagemEscudo {
     float: left;
     width: 15%;
@@ -355,6 +375,7 @@ h3 {
     margin: 0 0 0 -25%;
 }
 
-.listaMascara {
-    list-style-type: disc;
+.liQuaisSaoOsCuidados {
+    list-style: disc;
+    margin: 0 7%;
 }
